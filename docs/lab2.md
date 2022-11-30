@@ -571,6 +571,7 @@ six = "==1.16.0"
 urllib3 = "==1.26.5"
 websocket-client = "==0.54.0"
 pylint = "*"
+kubernetes = "*"
 
 [dev-packages]
 
@@ -581,6 +582,7 @@ python_version = "3.8"
 test = "python -m unittest"
 lint = "pylint src test"
 start = "python src/main.py"
+k8s = "python k8s/setup_k8s.py"
 ```
 
 Le fichier **Pipfile.lock** permet de l'installation des dépendances du projet.

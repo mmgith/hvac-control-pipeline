@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hvac-env
+data:
+  HVAC_HOST: host
+  HVAC_TICKETS: tickets
+  T_MAX: t_max
+  T_MIN: t_min

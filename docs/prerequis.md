@@ -11,6 +11,7 @@ Afin de faire tourner les projets et de travailler sur vos machines, vous allez 
 - [Une installation de Node JS](#Installation-de-Node-JS)
 - [Une installation de Docker Desktop](#Installation-de-Docker-Desktop)
 - [Une installation de Python](#Installation-de-Python)
+- [Une installation de Kube Control](#Installation-de-kubectl)
 - [Une installation des bibliothèques pipenv](#Installation-de-la-bibliothèque-Pipenv)
 - [Un éditeur de code de votre choix](#Un-éditeur-de-code)
 
@@ -70,6 +71,14 @@ Merci de télécharger l'installateur correspondant à votre système d'exploita
 
 Le contrôleur développé par l'entreprise Oxygen OS étant codé en Python, il est nécessaire de posséder une installation de ce dernier.
 Le programme tourne actuellement sous la version **3.8**, trouvable au lien suivant : _https://www.python.org/downloads/release/python-380/_
+
+Merci de télécharger l'installateur correspondant à votre système d'exploitation puis de suivre les étapes d'installation.
+
+---
+
+### Installation de kubectl
+
+Pour permettre le déploiement sur un cloud public, nous allons utiliser l'outil Kubernetes. Pour gérer nos espaces de déploiements, nous allons utiliser **kubectl**, trouvable au lien : _https://kubernetes.io/docs/tasks/tools/_
 
 Merci de télécharger l'installateur correspondant à votre système d'exploitation puis de suivre les étapes d'installation.
 

@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hvac-deployment
+  labels:
+    app: hvac
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hvac
+  template:
+    metadata:
+      labels:
+        app: hvac
+    spec:
+      containers:
+        - name: hvac
+          image: itsemi/hvac-controller:latest
+          envFrom:
+            - configMapRef:
+                name: hvac-env
+          env:
+            - name: HVAC_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: hvac-secret
+                  key: TOKEN
+          resources:
+            limits:
+              cpu: 100m
+              memory: 64Mi
+            requests:
+              cpu: 100m
+              memory: 64Mi

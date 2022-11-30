@@ -39,5 +39,5 @@ jobs:
           HVAC_HOST: ${{ secrets.HVAC_HOST }}
           HVAC_TOKEN: ${{ secrets.HVAC_TOKEN }}
           HVAC_TICKETS: ${{ secrets.HVAC_TICKETS }}
-          T_MAX: 60
-          T_MIN: 20
+          T_MAX: ${{ secrets.T_MAX }}
+          T_MIN: ${{ secrets.T_MIN }}
