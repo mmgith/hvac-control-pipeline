@@ -1,5 +1,5 @@
 # .github/workflows/app.yaml
-name: HVAC_CONTROLLER
+name: Test and Push
 on:
   push:
     branches:
