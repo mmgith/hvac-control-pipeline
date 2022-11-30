@@ -70,7 +70,7 @@ class TestHVACMethods(unittest.TestCase):
             lambda: print("||| Getting values after AC activation.")
         )
         self._hub_connection.start()
-        while len(values) < TICKETS - 1:
+        while len(values) < int(TICKETS) - 1:
             pass
         self._hub_connection.stop()
         for i in range(len(values) - 1):
@@ -106,7 +106,7 @@ class TestHVACMethods(unittest.TestCase):
             lambda: print("||| Getting values after Heather activation.")
         )
         self._hub_connection.start()
-        while len(values) < TICKETS - 1:
+        while len(values) < int(TICKETS) - 1:
             pass
         self._hub_connection.stop()
         for i in range(len(values) - 1):
