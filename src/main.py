@@ -69,9 +69,9 @@ class Main:
             print(err)
 
     def analyzeDatapoint(self, date, data):
-        if data >= float(self.T_MAX):
+        if float(data) >= float(self.T_MAX):
             self.sendActionToHvac(date, "TurnOnAc", self.TICKETS)
-        elif data <= float(self.T_MIN):
+        elif float(data) <= float(self.T_MIN):
             self.sendActionToHvac(date, "TurnOnHeater", self.TICKETS)
 
     def sendActionToHvac(self, date, action, nbTick):
