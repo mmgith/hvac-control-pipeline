@@ -863,10 +863,10 @@ Pour que ce pipeline soit fonctionnel, il est nécessaire d'ajouter les secrets 
 
 Pour tester le fonctionnement de notre pipeline, nous allons retourner sur VSCode et effectuer une modification sur notre code dans ce fichier-ci.
 
-Merci d'ajouter un x dans la case suivante [ ] :
+Merci d'ajouter un x dans la case suivante [x] :
 
 ```
-[] J'ai complété l'étape d'intégration continue du pipeline
+[x] J'ai complété l'étape d'intégration continue du pipeline
 ```
 
 Par la suite, nous allons effectuer la suite de commandes pour pousser notre code sur le repository distant :
