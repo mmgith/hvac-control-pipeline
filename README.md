@@ -10,4 +10,4 @@ Ce dernier est écrit en MarkDown, vous pourrez donc facilement copier et coller
 - **[Prérequis](./docs/prerequis.md)**
 - **[Laboratoire 2](./docs/lab2.md)**
 
-Michel
+Michel Munoz
