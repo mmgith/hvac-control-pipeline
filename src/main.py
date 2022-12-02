@@ -16,6 +16,7 @@ class Main:
         self.TICKETS = os.environ["HVAC_TICKETS"]
         self.T_MAX = os.environ["T_MAX"]
         self.T_MIN = os.environ["T_MIN"]
+    
 
     def __del__(self):
         if self._hub_connection != None:
